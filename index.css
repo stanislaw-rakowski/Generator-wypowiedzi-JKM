@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    background-image: url("https://d3npyywa6qnolf.cloudfront.net/prod/user/178853/eyJ1cmwiOiJodHRwczpcL1wvcGF0cm9uaXRlLnBsXC91cGxvYWRcL3VzZXJcLzE3ODg1M1wvYXZhdGFyX29yaWcuanBnPzE1NTMyMjU0NTciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI5MCwib3B0aW9ucyI6eyJxdWFsaXR5Ijo5NX19LCJ0b0Zvcm1hdCI6ImpwZWcifX0%3D/bjD4xx8Kgu9PKWwiCtUdMyn37UkQKbtRyUNgD5Wp8g8%3D");
+}
+
+#box{
+    border: solid black 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    padding: 0 70px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+#btn{
+    border: solid darkblue 2px;
+    padding: 10px 20px;
+    background-color: white;
+    color:blue;
+    transition: 400ms;
+    position: fixed;
+}
+
+#btn:hover{
+    background-color: blue;
+    color: white;
+    transition: 400ms;
+}
+
+#title{
+    position: fixed;
+    top: 50px;
+    padding-top: 20px;
+}
+
+#saying{
+    position: relative;
+    top: 70px;
+}
