@@ -1,8 +1,10 @@
 body{
-    display: flex;
-    justify-content: center;
     font-family: Montserrat;
-    background-image: url("https://d3npyywa6qnolf.cloudfront.net/prod/user/178853/eyJ1cmwiOiJodHRwczpcL1wvcGF0cm9uaXRlLnBsXC91cGxvYWRcL3VzZXJcLzE3ODg1M1wvYXZhdGFyX29yaWcuanBnPzE1NTMyMjU0NTciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI5MCwib3B0aW9ucyI6eyJxdWFsaXR5Ijo5NX19LCJ0b0Zvcm1hdCI6ImpwZWcifX0%3D/bjD4xx8Kgu9PKWwiCtUdMyn37UkQKbtRyUNgD5Wp8g8%3D");
+    background-image: url("https://ocdn.eu/pulscms-transforms/1/vb4k9kuTURBXy81OTQ2NTdkZi1jOTUzLTQ5OGUtOGE5Yi03M2Q3MzljOTMzNWMuanBlZ5GVAs0DBwDDw4GhMAE");
+    background-size: cover;
+    background-position: 300px;
+    background-repeat: no-repeat;
+    background-color: rgb(56, 55, 55);
 }
 
 #box{
@@ -17,6 +19,8 @@ body{
     margin-top: 50px;
     text-align: center;
     background-color: white;
+    position: fixed;
+    left: 50px;
 }
 
 #btn{
@@ -26,6 +30,7 @@ body{
     color:blue;
     transition: 400ms;
     position: fixed;
+    top: 200px;
 }
 
 #btn:hover{
@@ -36,8 +41,8 @@ body{
 
 #title{
     position: fixed;
-    top: 50px;
-    padding-top: 20px;
+    top: 70px;
+    font-size: x-large;
 }
 
 #saying{
